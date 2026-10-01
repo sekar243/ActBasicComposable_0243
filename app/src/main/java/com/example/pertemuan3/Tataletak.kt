@@ -48,3 +48,10 @@ fun TataLetakBox(modifier: Modifier) {
         Text(text = "Column 2")
     }
 }
+
+@Composable
+fun TataletakColumnRow(modifier: Modifier) {
+    Column() {
+
+    }
+}
