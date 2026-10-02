@@ -70,6 +70,13 @@ fun TugasLogin(modifier: Modifier) {
                 color = Color.Blue,
                 fontWeight = FontWeight.Bold
             )
+
+            Text(
+                text = "Sekar Kinasih",
+                fontSize = 18.sp,
+                color = Color.LightGray,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
