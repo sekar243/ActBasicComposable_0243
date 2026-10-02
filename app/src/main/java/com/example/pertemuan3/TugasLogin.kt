@@ -89,7 +89,7 @@ fun TugasLogin(modifier: Modifier) {
             Spacer(modifier = Modifier.height(20.dp))
             //Foto bawah
             Image(
-                painter = painterResource(id = R.drawable.hiro),
+                painter = painterResource(id = R.drawable.peri),
                 contentDescription = null,
                 modifier = Modifier
                     .size(350.dp)
