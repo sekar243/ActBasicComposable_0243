@@ -61,6 +61,8 @@ fun TugasLogin(modifier: Modifier) {
                 contentDescription = null,
                 modifier = Modifier.size(130.dp)
             )
+
+            Spacer(modifier = Modifier.height(45.dp))
         }
     }
 }
