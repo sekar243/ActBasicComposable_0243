@@ -16,12 +16,13 @@ import com.example.pertemuan3.ui.theme.Pertemuan3Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        //enableEdgeToEdge()
         setContent {
             Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    // panggil composable layout utama dengan padding dari scaffold
+                    TataletakColumnRow(
+                        // name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
