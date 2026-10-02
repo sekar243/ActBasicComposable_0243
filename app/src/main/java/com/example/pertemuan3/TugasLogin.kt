@@ -63,6 +63,13 @@ fun TugasLogin(modifier: Modifier) {
             )
 
             Spacer(modifier = Modifier.height(45.dp))
+            //Nama
+            Text(
+                text = "Nama",
+                fontSize = 18.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
