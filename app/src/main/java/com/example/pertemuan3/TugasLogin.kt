@@ -83,6 +83,8 @@ fun TugasLogin(modifier: Modifier) {
                 color = Color.Black,
                 fontWeight = FontWeight.Bold
             )
+
+            Spacer(modifier = Modifier.height(20.dp))
         }
     }
 }
